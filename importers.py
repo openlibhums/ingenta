@@ -157,5 +157,4 @@ def import_article_authors(article, metadata):
                 "institution": article.journal.name,
             }
         )
-        article.authors.add(account)
-    article.snapshot_authors(article)
+        account.snapshot_self(article)
