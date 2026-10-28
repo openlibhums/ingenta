@@ -1,7 +1,7 @@
 PLUGIN_NAME = 'Ingenta Plugin'
 DESCRIPTION = 'A plugin for importing back content from the Ingenta platform'
 AUTHOR = 'Birkbeck Centre for Technology and Publishing'
-VERSION = '0.1'
+VERSION = '0.1.1'
 SHORT_NAME = 'ingenta'
 MANAGER_URL = 'ingenta_index'
 JANEWAY_VERSION = "1.7.0"

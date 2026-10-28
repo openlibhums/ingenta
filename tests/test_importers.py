@@ -81,6 +81,7 @@ class TestImportArticle(TestCase):
             "abstract": "abstract",
         }
         self.journal_one, _ = helpers.create_journals()
+        helpers.create_roles(["author"])
         IssueType.objects.get_or_create(code="issue", journal = self.journal_one)
         self.owner = helpers.create_user("owner@email.com")
 
